@@ -1,0 +1,20 @@
+.match-details {
+  position: relative;
+  grid-row: 1/2;
+  right: auto;
+  height: 3rem;
+  width: 10rem;
+  background-color: rgb(0, 0, 0);
+  font-size: 1rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border: 1px dotted rgb(255, 26, 26);
+  color: white;
+  ::before {
+    content: "";
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+  }
+}
